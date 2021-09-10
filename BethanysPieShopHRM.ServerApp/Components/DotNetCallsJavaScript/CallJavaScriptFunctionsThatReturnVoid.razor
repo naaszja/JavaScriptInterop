@@ -1,0 +1,23 @@
+﻿@inject IJSRuntime JSRuntime
+
+<h2>Call JavaScript functions that return void</h2>
+
+<button class="btn btn-outline-primary" @onclick="ShowAlert">Show Alert</button>
+<button class="btn btn-outline-primary" @onclick="PassDotNetObjectToJs">Log .NET object to browser console</button>
+
+
+@code{ private async Task ShowAlert()
+            {
+                await JSRuntime.InvokeVoidAsync("blazorInterop.showAlert", "Hi, I am Jamie!");
+            }
+
+            private async Task PassDotNetObjectToJs()
+            {
+                await JSRuntime.InvokeVoidAsync("blazorInterop.logToConsoleTable",
+                    new Employee
+                    {
+                        EmployeeId = 49516,
+                        FirstName = "Jamie",
+                        LastName = "Naasz",
+                    });
+            } }

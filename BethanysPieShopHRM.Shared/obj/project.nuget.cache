@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0QaJ84wIKglz7xTE1CVH3aYgB1NYTALKi/j9NkNpFfzWSnPCO/Qqe+JAboVAiJs93Araprn7imJnrL6P4WV3yA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jlnaasz\\Desktop\\Syncfusion Support\\javascript-interop-blazor-applications\\03\\demos\\before\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jlnaasz\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

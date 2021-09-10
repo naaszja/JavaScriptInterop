@@ -1,0 +1,29 @@
+﻿@inject IJSRuntime JSRuntime;
+@implements IAsyncDisposable
+
+<h2>Use JavaScript Module</h2>
+<button class="btn btn-outline-primary" @onclick="ShowAlert">Show Alert from JavaScript Module</button>
+
+@code {
+
+    private IJSObjectReference module;
+
+    private async Task ShowAlert()
+    {
+        if (module == null)
+        {
+            module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./scripts/AlertModule.js");
+        }
+
+        await module.InvokeVoidAsync("showAlert", "Hi, I am Jamie from JS Module!");
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (module != null)
+        {
+            await module.DisposeAsync();
+        }
+    }
+
+}

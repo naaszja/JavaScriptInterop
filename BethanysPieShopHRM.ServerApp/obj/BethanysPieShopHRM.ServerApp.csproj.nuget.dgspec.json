@@ -1,0 +1,216 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jlnaasz\\Desktop\\Syncfusion Support\\javascript-interop-blazor-applications\\03\\demos\\before\\BethanysPieShopHRM.ServerApp\\BethanysPieShopHRM.ServerApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jlnaasz\\Desktop\\Syncfusion Support\\javascript-interop-blazor-applications\\03\\demos\\before\\BethanysPieShopHRM.ComponentsLibrary\\BethanysPieShopHRM.ComponentsLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jlnaasz\\Desktop\\Syncfusion Support\\javascript-interop-blazor-applications\\03\\demos\\before\\BethanysPieShopHRM.ComponentsLibrary\\BethanysPieShopHRM.ComponentsLibrary.csproj",
+        "projectName": "BethanysPieShopHRM.ComponentsLibrary",
+        "projectPath": "C:\\Users\\jlnaasz\\Desktop\\Syncfusion Support\\javascript-interop-blazor-applications\\03\\demos\\before\\BethanysPieShopHRM.ComponentsLibrary\\BethanysPieShopHRM.ComponentsLibrary.csproj",
+        "packagesPath": "C:\\Users\\jlnaasz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jlnaasz\\Desktop\\Syncfusion Support\\javascript-interop-blazor-applications\\03\\demos\\before\\BethanysPieShopHRM.ComponentsLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jlnaasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jlnaasz\\Desktop\\Syncfusion Support\\javascript-interop-blazor-applications\\03\\demos\\before\\BethanysPieShopHRM.ServerApp\\BethanysPieShopHRM.ServerApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jlnaasz\\Desktop\\Syncfusion Support\\javascript-interop-blazor-applications\\03\\demos\\before\\BethanysPieShopHRM.ServerApp\\BethanysPieShopHRM.ServerApp.csproj",
+        "projectName": "BethanysPieShopHRM.ServerApp",
+        "projectPath": "C:\\Users\\jlnaasz\\Desktop\\Syncfusion Support\\javascript-interop-blazor-applications\\03\\demos\\before\\BethanysPieShopHRM.ServerApp\\BethanysPieShopHRM.ServerApp.csproj",
+        "packagesPath": "C:\\Users\\jlnaasz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jlnaasz\\Desktop\\Syncfusion Support\\javascript-interop-blazor-applications\\03\\demos\\before\\BethanysPieShopHRM.ServerApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jlnaasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\jlnaasz\\Desktop\\Syncfusion Support\\javascript-interop-blazor-applications\\03\\demos\\before\\BethanysPieShopHRM.ComponentsLibrary\\BethanysPieShopHRM.ComponentsLibrary.csproj": {
+                "projectPath": "C:\\Users\\jlnaasz\\Desktop\\Syncfusion Support\\javascript-interop-blazor-applications\\03\\demos\\before\\BethanysPieShopHRM.ComponentsLibrary\\BethanysPieShopHRM.ComponentsLibrary.csproj"
+              },
+              "C:\\Users\\jlnaasz\\Desktop\\Syncfusion Support\\javascript-interop-blazor-applications\\03\\demos\\before\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
+                "projectPath": "C:\\Users\\jlnaasz\\Desktop\\Syncfusion Support\\javascript-interop-blazor-applications\\03\\demos\\before\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.5, 5.0.5]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jlnaasz\\Desktop\\Syncfusion Support\\javascript-interop-blazor-applications\\03\\demos\\before\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jlnaasz\\Desktop\\Syncfusion Support\\javascript-interop-blazor-applications\\03\\demos\\before\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
+        "projectName": "BethanysPieShopHRM.Shared",
+        "projectPath": "C:\\Users\\jlnaasz\\Desktop\\Syncfusion Support\\javascript-interop-blazor-applications\\03\\demos\\before\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
+        "packagesPath": "C:\\Users\\jlnaasz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jlnaasz\\Desktop\\Syncfusion Support\\javascript-interop-blazor-applications\\03\\demos\\before\\BethanysPieShopHRM.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jlnaasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
